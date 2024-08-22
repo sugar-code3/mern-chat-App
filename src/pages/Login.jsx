@@ -92,7 +92,7 @@ const Login = () => {
 
     try {
       const { data } = await axios.post(
-        `${server}/api/v1/user/new`,
+        `http://localhost:3000/api/v1/user/new`,
         formData,
         config
       );
